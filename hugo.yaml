@@ -6,7 +6,7 @@ theme: 'papermod'
 
 params:
   homeInfoParams:
-    Content: check out my socials or sumn
+    Content: check out my socials or sumn. i check my email pretty rarely* 
 
   socialIcons: # optional
     - name: "goodreads"
