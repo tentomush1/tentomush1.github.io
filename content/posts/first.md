@@ -5,7 +5,7 @@ draft = false
 +++
 # why
 I had this pages site for some time, like a month now, but it was just a nice page with my name on it.  
-I decided to switch to this ([hugo](https://gohugo.io)) cause i wanted to make an easy to mentain blog. This isn't targetting any audience really, it's just *targetting* future *me*. I haven't yet finished setting this site up. I'm using the papermod theme, i would link it, but it has 8k+ stars on github so idk if it's needed. Of course this is not gonna be anything extraordinarily personal. This is tied to my name after all, *Marcu Leancă*. 
+I decided to switch to this ([hugo](https://gohugo.io)) cause i wanted to make an easy to mentain blog. This isn't targetting any audience really, it's just *targetting* future *me*. I haven't yet finished seting this site up. I'm using the papermod theme, i would link it, but it has 8k+ stars on github so idk if it's needed. Of course this is not gonna be anything extraordinarily personal. This is tied to my name after all, *Marcu Leancă*. 
 ## moving on
 i'm a teen so just like my *dirigintă?* said:
 
