@@ -2,4 +2,15 @@ baseURL: 'https://tentomush1.github.io/'
 languageCode: ro 
 title: Marcu Leancă 
 theme: 'papermod'
+  #sectionPagesMenu: main
+
+params:
+  homeInfoParams:
+    Content: check out my socials or sumn
+
+  socialIcons: # optional
+    - name: "goodreads"
+      url: "https://www.goodreads.com/tentomushi "
+    - name: "email"
+      url: "mailto:marcuceva@protonmail.com"
 
