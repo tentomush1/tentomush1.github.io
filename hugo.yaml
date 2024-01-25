@@ -9,8 +9,8 @@ params:
     Content: check out my socials or sumn. i check my email pretty rarely* 
 
   socialIcons: # optional
-    - name: "goodreads"
-      url: "https://www.goodreads.com/tentomushi "
     - name: "email"
       url: "mailto:marcuceva@protonmail.com"
+    - name: "goodreads"
+      url: "https://www.goodreads.com/tentomushi "
 
