@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body {
+    position: relative;
+    background-color: #130902;
+    color: #DED1BA;
+    font-family: Baskervville, serif;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin:0; */
+    /*  */
+    /* background-image: url(imgs/grain.jpg); */
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+img {
+    width: auto;
+    max-height: 40vh;
+    max-width: 90vw;
+    border: 1vw solid #2A1B0F;
+}
+
+.mapping {
+    width: 1200px;
+    height: 1838px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-height: 80vh;
+    max-width: 90vw;
+    /* use vw (viewport width) instead of vh here */
+}
+
+#slide1 {
+    opacity: 1;
+    position: absolute;
+}
+
+#slide2 {
+    opacity: 0;
+    position: absolute;
+}
+
+#slide3 {
+    opacity: 0;
+    position: absolute;
+}
+
+#slide4 {
+    opacity: 0;
+    position: absolute;
+}
+
+#slide5 {
+    opacity: 0;
+    position: absolute;
+}
+
+.under {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.under p {
+    font-size: large;
+}
+
+/* button {
+    border-style: none;
+    background: none;
+    color: inherit;
+    font-family: inherit;
+} */
+
+#hover {
+    background-color: #31271C;
+    font-family: Baskervville, serif;
+    color: #8E723F;
+    position: absolute;
+    font-size: 2vh;
+    right: 1vw;
+    top: 88vh;
+    border: none;
+    padding: 1vh;
+    border-radius: 15px;
+}
+
+footer {
+    /* position: fixed; */
+    font-size: 2vh;
+    background-color: #020100;
+    margin: 0 -20px;
+    bottom: 0;
+    padding: 50px;
+    a {
+        text-decoration: none;
+    }
+    table {
+        width: 50%;
+    }
+    th {
+        border: 0px solid;
+
+    }
+}
+
+.overlay {
+    /* position: fixed;
+    border-style: none; */
+    background-image: url(imgs/grain.jpg);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #DED1BA;
+}
+
+.info {
+    padding: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #2A1B0F;
+    padding: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.filosoz {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: large;
+    h3 {
+        font-family: "Pinyon Script", cursive;
+    }
+    table {
+        text-align: left;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
